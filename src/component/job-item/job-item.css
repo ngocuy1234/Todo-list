@@ -1,0 +1,35 @@
+.job_item-left{
+    display: flex;
+  }
+  
+  .job_item{
+    margin-top: 15px;
+    display: flex;
+    background-color: var(--white);
+    padding: 5px 15px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 6px;
+  }
+  
+  .job_name{
+    margin-left: 15px;
+  }
+  
+  .btn_delete-job{
+    padding: 0;
+    font-size: 23px;
+    background-color: #fff;
+    border: none;
+    color:#fa415d;
+    cursor: pointer;
+  }
+  
+  .job_item-checkbox{
+    width: 20px;
+    border: none;
+  }
+  
+  .job_item-checkbox:checked ~ .job_item{
+    background-color: green;
+  }

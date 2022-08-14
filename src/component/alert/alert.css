@@ -1,0 +1,39 @@
+/* -------------- */
+.over-lay-alert{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(29, 29, 29, 0.575); 
+  }
+  
+  .over-lay-alert img{
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .alert_wrapper{
+    width: 400px;
+    height: 260px;
+    background-color: var(--white);
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .over_lay-close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: rgba(29, 29, 29, 0.575);
+    color: var(--white);
+    font-size: 30px;
+    cursor: pointer;
+    border: none;
+  }

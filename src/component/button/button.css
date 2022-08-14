@@ -1,0 +1,19 @@
+.delete_all-wrapper {
+    position: absolute;
+    right:40px;
+    bottom: 30px;
+  }
+
+  .delete_all-wrapper .delete_all-job{
+    padding: 15px 20px;
+    font-size: 16px;
+    color: var(--white);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .delete_all-wrapper .delete_all-job:hover{
+   opacity: 0.9;
+  }
+

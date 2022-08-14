@@ -1,13 +1,63 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container{
+  background-color: #293462;
+  display: flex;
+  justify-content: center;
+  align-items:flex-start;
+  height: 100vh;
+  width: 100vw;
+  background-size: 400% 400%;
+  animation: Gradient 9s ease infinite;
+  overflow-x: hidden;
 }
+
+.wrapper{
+  margin-top: 40px;
+}
+
+:root {
+  --white: #F8F8F8;
+  --primary: #C21010;
+}
+
+.title {
+  color: var(--white);
+  font-family: 'DynaPuff', cursive;
+}
+
+.form_add-wrapper{
+  display: flex;
+}
+
+.form_add-input{
+  flex: 1;
+  height: 40px;
+  padding-left: 15px;
+  margin-right: 15px;
+  border-radius: 6px;
+  border: none;
+  font-size: 15px;
+}
+
+.form_add-input:focus{
+  outline: none;
+}
+
+.form_add-button{
+  background-color: #fa415d;
+  border: none;
+  color : var(--white);
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 0px 20px;
+  font-size: 15px;
+}
+
+
